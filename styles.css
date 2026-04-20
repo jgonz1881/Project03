@@ -1,0 +1,93 @@
+/* Import a bubbly Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+/* General page styling */
+body {
+    font-family: 'Fredoka', Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #ff6f61, #ff9a8b);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 5px solid #ff3d3d;
+}
+
+header h1 {
+    font-size: 2.2em;
+    letter-spacing: 1px;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Caption */
+caption {
+    font-size: 1.6em;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: #ff6f61;
+}
+
+/* Table cells */
+th, td {
+    padding: 14px;
+    text-align: left;
+}
+
+/* Header row */
+th {
+    background: linear-gradient(135deg, #36d1dc, #5b86e5);
+    color: white;
+    font-size: 1.1em;
+}
+
+/* Alternating rows */
+tbody tr:nth-child(even) {
+    background-color: #f9f9ff;
+}
+
+/* Hover effect */
+tr:hover {
+    background-color: #ffe0e9;
+    transition: 0.3s;
+}
+
+/* Links */
+a {
+    color: #ff3d7f;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    color: #d81b60;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(135deg, #36d1dc, #5b86e5);
+    color: white;
+    margin-top: 20px;
+    border-top: 5px solid #2a6fdb;
+}
